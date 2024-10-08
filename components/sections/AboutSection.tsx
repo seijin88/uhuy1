@@ -61,6 +61,7 @@ const AboutSection = () => {
                   layout="fill"
                   priority
                   objectFit="cover"
+                  alt="about_section"
                 />
               </Box>
               <Heading textAlign="center" size="lg">

@@ -13,7 +13,7 @@ const ProjectSection = ({ project }: any) => {
   return (
     <ScrollSection borderBottom="sm">
       <Box h="h-screen" pos="relative">
-        <Image layout="fill" priority src={project.img} objectFit="cover" />
+        <Image layout="fill" priority src={project.img} objectFit="cover" alt="project_section" />
       </Box>
       <Flex borderY="sm" h="12">
         <Center px="md" h="100%" borderRight="sm">
