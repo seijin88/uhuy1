@@ -34,7 +34,7 @@ const GradientImg = () => {
           scale: 1.45,
         }}
       >
-        <Image src={gradientImg} layout="fill" priority />
+        <Image src={gradientImg} layout="fill" priority alt="intro_section" />
       </MotionBox>
     </Box>
   );
